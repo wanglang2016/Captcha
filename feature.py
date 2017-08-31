@@ -4,7 +4,6 @@
 from PIL import Image
 import os
 import numpy as np
-
 def getBinaryPix(im):
     im = Image.open(im)
     img = np.array(im)
